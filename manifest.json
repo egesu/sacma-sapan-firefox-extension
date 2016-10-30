@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+    "name": "Saçma Sapan",
+    "version": "1.0.0",
+    "description": "Facebook'ta resmi bayramdır, dini bayramdır, hepsini kaldırır.",
+    "options_ui": {
+        "page": "options.html"
+    },
+    "permissions": [
+        "storage"
+    ],
+    "icons": {
+        "48": "icons/sacma-sapan-48.png",
+        "96": "icons/sacma-sapan-96.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://*.facebook.com/*"],
+            "js": ["content/facebook.js"]
+        }
+    ],
+    "applications": {
+        "gecko": {
+            "strict_min_version": "48.0"
+        }
+    }
+}
