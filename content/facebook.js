@@ -66,7 +66,7 @@ function checkForBlackList(elementList, blacklist) {
 
     for (i = 0; i < elementList.length; i++) {
         found = 0;
-        text = elementList[i].textContent.toLowerCase().replace('ı', 'i');
+        text = elementList[i].textContent.toLowerCase().replace(/ı/g, 'i');
         for (j in blacklist) {
             if (text.indexOf(blacklist[j]) !== -1) {
                 found++;
