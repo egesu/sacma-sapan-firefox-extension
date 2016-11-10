@@ -41,13 +41,13 @@ function removeStuff() {
         'anitkabir',
     ];
 
-    if (preferences.day29Ekim) {
+    if (preferences.day29Ekim !== false) {
         if (dayIsCloseToCheck('29Ekim')) {
             checkForBlackList(articleList, blacklist29Ekim);
         }
     }
 
-    if (preferences.day10Kasim) {
+    if (preferences.day10Kasim !== false) {
         if (dayIsCloseToCheck('10Kasim')) {
             checkForBlackList(articleList, blacklist10Kasim);
         }
