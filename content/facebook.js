@@ -39,6 +39,8 @@ function removeStuff() {
         '10kasim',
         'atam',
         'anitkabir',
+        'mustafa kemal',
+        'mustafakemal',
     ];
 
     if (preferences.day29Ekim !== false) {
