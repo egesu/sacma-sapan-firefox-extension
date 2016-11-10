@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Saçma Sapan",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Facebook'ta resmi bayramdır, dini bayramdır, hepsini kaldırır.",
     "options_ui": {
         "page": "options.html"
